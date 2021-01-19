@@ -17,6 +17,19 @@ for key in stock:
 import modules.web_scrapers as scrapers
 scraper = scrapers.equity.market_watch(random_headers=True)
 ```
+## Yahoo Finance
+https://ca.finance.yahoo.com
+```python
+from  modules.web_scrapers import equity
+scraper = equity.yahoo_finance(random_headers=True)
+stock = scraper.get_stock('aapl')
+for key in stock:
+	print(key.ljust(20),' : ',stock[key])
+
+import modules.web_scrapers as scrapers
+scraper = scrapers.equity.yahoo_finance(random_headers=True)
+```
+
 ---
 **Not being maintained**
 * This code is unlikely to be maintained.
