@@ -7,7 +7,7 @@
 # Equity (Stocks)
 ## 
 
-# Not being maintained
+**Not being maintained**
 * This code is unlikely to be maintained.
 * If you send in a pull request it is unlikely I will look at it.
 * If you create an issue it is unlikely I will look at it.
