@@ -5,6 +5,7 @@
 * Random headers are used to reduce the likelihood of being blocked.
 
 # Equity (Stocks)
+
 ## Market Watch
 https://www.marketwatch.com
 ```python
@@ -16,6 +17,10 @@ for key in stock:
 
 import modules.web_scrapers as scrapers
 scraper = scrapers.equity.market_watch(random_headers=True)
+```
+### Documentation
+```python
+
 ```
 ## Yahoo Finance
 https://ca.finance.yahoo.com
