@@ -7,7 +7,7 @@
 # Equity (Stocks)
 ## Market Watch
 https://www.marketwatch.com
-'''
+```python
 from  modules.web_scrapers import equity
 scraper = equity.market_watch(random_headers=True)
 stock = scraper.get_stock('aapl')
@@ -16,7 +16,7 @@ for key in stock:
 
 import modules.web_scrapers as scrapers
 scraper = scrapers.equity.market_watch(random_headers=True)
-'''
+```
 ---
 **Not being maintained**
 * This code is unlikely to be maintained.
